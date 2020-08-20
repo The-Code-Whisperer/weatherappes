@@ -3,8 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      Nothing is here!!!!! :O
+    <div className="title">
+      WeatherApp
     </div>
   );
 }
