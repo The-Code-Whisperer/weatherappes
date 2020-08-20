@@ -3,9 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="title">
-      WeatherApp
-       <input type="text" className="searchbar" />
+    <div>
+      <div className="title">
+        WeatherApp
+      </div>
+      <input type="text"></input>
     </div>
   );
 }
