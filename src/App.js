@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="title">
       WeatherApp
+       <input type="text" className="searchbar" />
     </div>
   );
 }
