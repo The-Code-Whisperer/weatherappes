@@ -1,13 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
 
 function App() {
   return (
-    <div>
-      <div className="title">
-        WeatherApp
-      </div>
+    <div className="main">
+      <div className="title">WeatherApp</div>
       <input type="text"></input>
+      <button>Search</button>
     </div>
   );
 }
