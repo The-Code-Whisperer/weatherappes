@@ -6,10 +6,21 @@ import React from 'react';
 
 function App() {
   return (
+<<<<<<< HEAD
     <div className="main">
       <div className="title">WeatherApp</div>
       <input type="text"></input>
       <button>Search</button>
+=======
+    <div>
+      <div className="title">
+        WeatherApp
+      </div>
+      <div className="searchbardiv">
+        <input className="searchfield" type="text" />
+        <button className="searchbarbutton" text="Find Forecast" />
+      </div>
+>>>>>>> c01e20831d6884884d3858986bd148efcb10bf15
     </div>
   );
 }

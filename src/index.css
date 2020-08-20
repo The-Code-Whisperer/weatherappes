@@ -14,11 +14,27 @@ code {
 
 .title {
   font-size: 40px;
-  color: grey;
+  color: rgb(54, 54, 54);
   text-align: center;
   padding: 100px;
 }
 
+<<<<<<< HEAD
 .searchbar {
   border: 10px;
 }
+=======
+.searchbardiv {
+  text-align: center;
+}
+
+.searchfield {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.searchbarbutton {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+>>>>>>> c01e20831d6884884d3858986bd148efcb10bf15
