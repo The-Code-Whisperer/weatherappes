@@ -7,8 +7,8 @@ function App() {
         WeatherApp
       </div>
       <div className="searchbardiv">
-        <input className="searchfield" type="text" />
-        <button className="searchbarbutton" text="Find Forecast" />
+        <input className="searchfield" type="text" value="Location" />
+        <button className="searchbarbutton">Find Forecast</button>
       </div>
     </div>
   );

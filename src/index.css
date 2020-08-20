@@ -24,11 +24,16 @@ code {
 }
 
 .searchfield {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border: 1px solid #cccccc;
+  padding: 8px;
+
 }
 
 .searchbarbutton {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 8px;
+  color: #dddddd;
+  border: 1px solid #555555;
+  background: #777777;
+  margin: 6px;
+  cursor: pointer;
 }
