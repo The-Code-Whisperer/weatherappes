@@ -6,7 +6,10 @@ function App() {
       <div className="title">
         WeatherApp
       </div>
-      <input type="text"></input>
+      <div className="searchbardiv">
+        <input className="searchfield" type="text" />
+        <button className="searchbarbutton" text="Find Forecast" />
+      </div>
     </div>
   );
 }
