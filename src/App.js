@@ -2,10 +2,12 @@ import React from "react";
 
 function App() {
   return (
-    <div className="main">
+    <div>
       <div className="title">WeatherApp</div>
-      <input type="text"></input>
-      <button>Search</button>
+      <div className="searchbardiv">
+        <input className="searchfield" type="text" />
+        <button className="searchbarbutton" text="Find Forecast" />
+      </div>
     </div>
   );
 }
