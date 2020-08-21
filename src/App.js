@@ -17,6 +17,7 @@ function App() {
   }
   const searchbarChanged = (e) => {
     console.log(e.target.value)
+    // look through cities.txt and show first 3 results that start with e.target.value
   }
   const [weatherData, setWeatherData] = useState(() => "test")
   return (
