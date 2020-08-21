@@ -12,13 +12,16 @@ function App() {
   const getWeather = () => {
     console.log('hey whats up')
   }
-  var [weatherData, setWeatherData] = useState("test")
+  const searchbarChanged = (e) => {
+    console.log(e.target.value)
+  }
+  const [weatherData, setWeatherData] = useState(() => "test")
   return (
     <div>
       <div className="title">WeatherApp</div>
       <div className="searchbardiv">
-        <input className="searchfield" type="text" value="Location" />
-        <button onSubmit={getWeather} className="searchbarbutton">Find Forecast</button>
+        <input onChange={searchbarChanged} className="searchfield" type="text" placeholder="Location" />
+        <button onClick={getWeather} className="searchbarbutton">Find Forecast</button>
       </div>
       <Mainforecast />
       <LongForecast />
