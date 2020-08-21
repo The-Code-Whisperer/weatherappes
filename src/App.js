@@ -1,5 +1,4 @@
 //imports
-import React from "react";
 import React, { useState } from "react";
 
 import api_key from "./api/openweather";
