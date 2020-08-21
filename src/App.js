@@ -8,6 +8,9 @@ function App() {
         <input className="searchfield" type="text" value="Location" />
         <button className="searchbarbutton">Find Forecast</button>
       </div>
+
+      <MainForecast />
+      <LongtermForecast />
     </div>
   );
 }
