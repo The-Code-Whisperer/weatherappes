@@ -1,5 +1,5 @@
 import React from "react";
-var api_key = '8e7b5a4d1f58b0476c0658c7c172e7af'
+import api_key from './api/openweather';
 
 function App() {
   return (
