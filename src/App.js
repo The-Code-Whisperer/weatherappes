@@ -1,5 +1,11 @@
+//imports
 import React from "react";
 import api_key from './api/openweather';
+import LongForecast from "./Components/Longforecast";
+import Mainforecast from "./Components/Mainforecast";
+
+var api_link =
+  "http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=";
 
 function App() {
   return (
@@ -9,8 +15,7 @@ function App() {
         <input className="searchfield" type="text" value="Location" />
         <button className="searchbarbutton">Find Forecast</button>
       </div>
-      http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID={api_key}
-      <MainForecast />
+      <Mainforecast />
       <LongForecast />
     </div>
   );
