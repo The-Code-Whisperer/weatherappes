@@ -1,7 +1,7 @@
 //imports
 import React from "react";
-import api_key from './api/openweather';
-import LongForecast from "./Components/Longforecast";
+import api_key from "./api/openweather";
+import Longforecast from "./Components/Longforecast";
 import Mainforecast from "./Components/Mainforecast";
 
 var api_link =
@@ -16,7 +16,7 @@ function App() {
         <button className="searchbarbutton">Find Forecast</button>
       </div>
       <Mainforecast />
-      <LongForecast />
+      <Longforecast />
     </div>
   );
 }
