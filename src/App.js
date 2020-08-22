@@ -16,21 +16,22 @@ function App() {
     console.log('hey whats up')
   }
   const searchbarChanged = (e) => {
-    console.log(e.target.value)
     // look through cities.txt and show first 3 results that start with e.target.value
-  }
-  const [weatherData, setWeatherData] = useState(() => "test")
-  return (
-    <div>
-      <div className="title">WeatherApp</div>
-      <div className="searchbardiv">
-        <input onChange={searchbarChanged} className="searchfield" type="text" placeholder="Location" />
-        <button onClick={getWeather} className="searchbarbutton">Find Forecast</button>
-      </div>
-      <Mainforecast />
-      <Longforecast />
+  })
+
+}
+const [weatherData, setWeatherData] = useState(() => "test")
+return (
+  <div>
+    <div className="title">WeatherApp</div>
+    <div className="searchbardiv">
+      <input onChange={searchbarChanged} className="searchfield" type="text" placeholder="Location" />
+      <button onClick={getWeather} className="searchbarbutton">Find Forecast</button>
     </div>
-  );
+    <Mainforecast />
+    <Longforecast />
+  </div>
+);
 }
 
 export default App;
