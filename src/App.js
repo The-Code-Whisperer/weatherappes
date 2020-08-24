@@ -15,9 +15,21 @@ function App() {
   const getWeather = () => {
     console.log('hey whats up')
   }
-  const searchbarChanged = (e) => {
-    // look through cities.txt and show first 3 results that start with e.target.value
-  })
+  // look through cities.txt and show first 3 results that start with e.target.value
+  const searchbarChanged = e => {
+    // open cities.txt as cityfile
+    // listoflines = cityfile.readlines()
+    // for (let i = 0; i<listoflines.length; i++){
+      // results = []
+      // count = 0
+      // if (listoflines[i].startswith(e.target.value) && count!=3)
+        // put in results
+        // count++
+    // }
+    // console.log(results)
+  }
+
+  
 
 }
 const [weatherData, setWeatherData] = useState(() => "test")
