@@ -16,17 +16,24 @@ function App() {
   const getWeather = () => {
     console.log('hey whats up')
   }
-  const searchbarChanged = (e) => {
-    // look through cities.txt and show first 3 results that start with e.target.value
-  })
-
-
-        <Autocomplete
-          id="combo-box-demo"
-          options={top100Films}
-          getOptionLabel={(option) => option.city}
-          style={{ width: 300 }}
-          renderInput={(params) => <TextField {...params} label="City" variant="outlined" />}
+  // returns 10 search suggestions
+  const searchbarChanged = e => {
+    let results = []
+    let count = 0;
+    for (let i = 0; i < cities.length; i++) {
+      if (count < 10 && cities[i].toLowerCase().startsWith(e.target.value.toLowerCase())) {
+        results.push(cities[i]);
+        count++;
+      }
+    }
+    console.log(results)
+  }
+  const [weatherData, setWeatherData] = useState(() => "test");
+  return (
+    <div>
+      <div className="title">WeatherApp</div>
+      <div className="searchbardiv">
+        <input
           onChange={searchbarChanged}
           className="searchfield"
         />
