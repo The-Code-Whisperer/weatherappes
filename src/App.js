@@ -28,6 +28,7 @@ function App() {
     <div>
       <div className="title">WeatherApp</div>
       <div className="searchbardiv">
+        
         <input
           onChange={searchbarChanged}
           className="searchfield"
