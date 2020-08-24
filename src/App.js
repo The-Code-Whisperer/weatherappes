@@ -5,6 +5,7 @@ import api_key from "./api/openweather";
 import Longforecast from "./Components/Longforecast";
 import Mainforecast from "./Components/Mainforecast";
 import openweather from "./api/openweather";
+import cities from "./cities.txt"
 
 function App() {
   const getWeather = () => {
@@ -22,6 +23,7 @@ function App() {
     // count++
     // }
     // console.log(results)
+    console.log(e.target.value)
   }
   const [weatherData, setWeatherData] = useState(() => "test");
   return (
