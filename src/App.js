@@ -13,7 +13,6 @@ import openweather from "./api/openweather";
 
 
 function App() {
-  let = cities
   const getWeather = () => {
     console.log('hey whats up')
   }
