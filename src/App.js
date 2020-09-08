@@ -23,7 +23,8 @@ function App() {
         count++;
       }
     }
-    console.log(results)
+    console.log(results);
+    document.querySelector(".autosuggestresults").innerHTML = results;
   }
   const [weatherData, setWeatherData] = useState(() => "test");
   return (
@@ -37,6 +38,7 @@ function App() {
         <button onClick={getWeather} className="searchbarbutton">
           Find Forecast
         </button>
+        <div class="autosuggestresults">test</div>
       </div>
       <Mainforecast />
       <Longforecast />
