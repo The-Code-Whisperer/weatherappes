@@ -9,7 +9,7 @@ import Mainforecast from "./Components/Mainforecast";
 import openweather from "./api/openweather";
 
 function App() {
-  const cities = ["Tokyo", "New York", "Mexico City", "Mumbai", "Sao Paulo", "Delhi", "Shanghai", "Kolkata", "Los Angeles", "Dhaka", "Buenos Aires", "Karachi", "Cairo", "Rio de Janeiro", "Osaka", "Beijing", "Manila", "Moscow", "Istanbul", "Paris", "Seoul", "Lagos", "Jakarta", "Guangzhou", "Chicago", "London", "Lima", "Tehran", "Kinshasa", "Bogota", "Shenzhen", "Wuhan", "Hong Kong", "Tianjin", "Chennai", "Taipei", "Bengaluru", "Bangkok", "Lahore", "Chongqing", "Miami", "Hyderabad", "Dallas", "Santiago", "Philadelphia", "Belo Horizonte", "Madrid", "Houston", "Ahmadabad", "Ho Chi Minh City", "Washington", "Atlanta", "Toronto", "Singapore", "Luanda", "Baghdad", "Barcelona", "Haora", "Shenyang", "Khartoum"]
+  const cities = ["Tokyo", "New York", "Mexico City", "Mumbai", "Sao Paulo", "Delhi", "Shanghai", "Kolkata", "Los Angeles", "Dhaka", "Buenos Aires", "Karachi", "Cairo", "Rio de Janeiro", "Osaka", "Beijing", "Manila", "Moscow", "Istanbul", "Paris", "Seoul", "Lagos", "Jakarta", "Guangzhou", "Chicago", "London", "Lima", "Tehran", "Kinshasa", "Bogota", "Shenzhen", "Wuhan", "Hong Kong", "Tianjin", "Chennai", "Taipei", "Bengaluru", "Bangkok", "Lahore", "Chongqing", "Miami", "Hyderabad", "Dallas", "Santiago", "Philadelphia", "Belo Horizonte", "Madrid", "Houston", "Ahmadabad", "Ho Chi Minh City", "Washington", "Atlanta", "Toronto", "Singapore", "Luanda", "Baghdad", "Barcelona", "Haora", "Shenyang", "Khartoum"];
   const getWeather = () => {
     console.log('hey whats up')
   }
